@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SleepAssiatantv04</string>
+    <string name="connect_a_smart_watch">Подключить smart часы</string>
+    <string name="select_a_music_playlist">Выбрать музыкальный плейлист</string>
+    <string name="start">Старт</string>
+    <string name="start_a_playlist">Запустить плейлист</string>
+    <string name="connect_watch">Подключите часы</string>
+    <string name="go_back">Go Back</string>
+    <string name="checking_the_connection">Проверка соединения</string>
+    <string name="discoverable">Discoverable</string>
+    <string name="turn_off_bluetooth">выключить bluetooth</string>
+    <string name="turn_on_bluetooth">включить bluetooth</string>
+    <string name="go_monitoring">Go Monitoring</string>
+    <string name="menu_text">Добро пожаловать в "Sleep Assiatant" Это приложение поможет вам заснуть. В самом начале подключите свои smart-часы, а затем выберите плейлист, который вам нравится</string>
+    <string name="monitoring_hello">Поздравляю, ваши часы подключины. Нажмите кнопку "play" на часах, чтобы приложение получило данные о вашем сердечном ритме.</string>
+    <string name="give_me_the_result">give me the result</string>
+    <string name="watch_statistics">Watch statistics</string>
+    <string name="time_to_fall_asleep">Time to fall asleep:</string>
+    <string name="date_of_falling_asleep">Date of falling asleep:</string>
+    <string name="heart_rate_value">Heart rate value:</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WatchStatistics"
+    android:background="@drawable/gradient_for_statistics">
+
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="100dp">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/time_to_fall_asleep"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/date_of_falling_asleep"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/heart_rate_value"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/heart_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+
+        </TextView>
+        <TextView
+            android:id="@+id/heart_data"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+
+        </TextView>
+        <TextView
+            android:id="@+id/heart_pulse"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/button_give_rusult"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:text="@string/give_me_the_result"
+        android:background="@drawable/butten"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"/>
+
+    <Button
+        android:id="@+id/button_go_back_cw"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/icon_home"/>
+
+</RelativeLayout>

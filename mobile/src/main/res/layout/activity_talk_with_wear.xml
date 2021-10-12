@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TalkWithWear"
+    android:background="@drawable/gradient_for_connect_smart_watch">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/monitoring_hello"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="300dp"
+        android:background="@drawable/bigheart"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/heardRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:textSize="80sp"
+        android:textColor="#FFFFFF">
+    </TextView>
+
+    <Button
+        android:id="@+id/button_go_back_cw"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/icon_home"/>
+
+
+</RelativeLayout>

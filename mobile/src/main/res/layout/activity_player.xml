@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_for_player">
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/fucking_shit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myHeard"
+        android:visibility="invisible"
+        android:text="85"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_music"/>
+    <TextView
+        android:id="@+id/nameTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASMR"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
+    <SeekBar
+        android:id="@+id/positionBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/elapsedTimeLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00"
+
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/remainingTimeLable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1:00"
+            android:layout_marginLeft="230dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <Button
+            android:id="@+id/ButtonLastTrack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_last" />
+        <Button
+            android:id="@+id/ButtonPlayTrack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icon_play"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+        <Button
+            android:id="@+id/ButtonNextTrack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/icon_sound_with_speaker"/>
+        <SeekBar
+            android:id="@+id/volumeBar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/icon_sound_without_speaker"/>
+
+    </LinearLayout>
+
+</LinearLayout>
