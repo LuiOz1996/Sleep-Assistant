@@ -7,14 +7,16 @@
 <br> 
 <h3>Меню</h3>
 
-
+![1](https://user-images.githubusercontent.com/51347241/137019263-6cc81f48-856b-4b52-849d-29b3dafd43b0.png)
 <h3>Bluetooth</h3>
 
-
+![2](https://user-images.githubusercontent.com/51347241/137019261-55ac5317-c2c4-4715-b0ca-75c4ac6d8840.png)
 <h3>Выбор плей-листа</h3>
 
-
+![3](https://user-images.githubusercontent.com/51347241/137019271-7670a4b8-fc97-496f-b0ca-4ed5b1354fdb.png)
 <h3>Плейер</h3>
 
-
+![4](https://user-images.githubusercontent.com/51347241/137019255-275912d5-b8ab-4f44-a447-d751ae7aaff9.png)
 <h3>Приложение на смар-часах</h3>
+
+![5](https://user-images.githubusercontent.com/51347241/137019266-b5b858b0-a82f-48d4-9946-7478ce097d88.png)
